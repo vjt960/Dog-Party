@@ -1,0 +1,160 @@
+body{
+	font:17px/1.5 Verdana, Geneva, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#ffffff;
+}
+
+/*  Global  */
+
+.container{
+	overflow:hidden;
+	margin:auto;
+	width:97%;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+img{
+	max-height:220px;
+	max-width:220px;
+}
+
+
+/*  Header  */ 
+
+header{
+	background:#75e2e6;
+	color:black;
+	padding-top:10px;
+	border-bottom:#048eaa 3px solid;
+}
+
+header img{
+	height:50px;
+	width:50px;
+	float:left;
+	margin-bottom: 10px;
+}
+
+nav{
+	float:right;
+	margin-top:10px;
+}
+
+header li{
+	display:inline;
+	float:left;
+	padding:0 20px 0 20px;
+}
+
+
+/*  Showcase  */ 
+
+.showcase{
+	position:relative;
+	color:white;
+	font-size:25px;
+}
+
+
+.background{
+	background:url('images/park.jpg') no-repeat center center;
+	background-size:100% 100%;
+	height:540px;
+	filter:brightness(70%);
+}
+
+.main{
+	display:block;
+	margin:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	height:510px;
+	width:350px;
+	text-align:center;
+}
+
+.main img{
+	border-radius: 50%;
+	border:3px solid #048eaa;
+}
+
+
+.showcase label{
+	display:block;
+	text-align:left;
+	font-size:14px;
+	font-weight:lighter;
+}
+
+form input{
+	height:35px;
+	width:344px;
+	margin-bottom:7px;
+}
+
+form button{
+	height:38px;
+	width:350px;
+	background:#75e2e6;
+	color:black;
+	font-size:17px;
+
+}
+
+
+/*  Boxes  */
+
+#boxes .container{
+	margin-top:30px;
+}
+
+#boxes .box{
+	width:25%;
+	padding:10px;
+	margin-bottom:15px;
+	margin-left:5%;
+	text-align:center;
+	display:inline-block;
+}
+
+#boxes img{
+	border-radius: 50%;
+	border:3px solid #048eaa;
+}
+
+.box p{
+	text-align:left;
+}
+
+#boxes button{
+	height: 40px;
+	width:100%;
+	background:#048eaa;
+	color:white;
+	font-size:20px;
+	margin:25px 0 25px;
+}
+
+
+/*  Footer  */
+
+footer{
+	height:100px;
+	color:white;
+	padding-top:20px;
+	padding-bottom:50px;
+	background:#048eaa;
+	text-align:center;
+}
+
+footer img{
+	margin:0 10px 0;
+}

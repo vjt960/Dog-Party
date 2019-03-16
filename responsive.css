@@ -1,0 +1,35 @@
+ /*  Header  */
+
+ nav{
+	float:right;
+	margin-top:10px;
+}
+
+header li{
+	padding:0 12px 0 12px;
+	font-size: 15px;
+	margin-bottom:20px;
+
+}
+
+header img{
+	margin-left:50%;
+	margin-bottom:0;
+}
+
+
+/*  Showcase  */
+
+ .background {
+ 	border-bottom:6px solid #048eaa;
+ }
+
+
+/*  Boxes  */
+
+#boxes .box{
+	width:auto;
+	margin-bottom:5px;
+	margin-left:auto;
+	border:3px solid #048eaa;
+}
