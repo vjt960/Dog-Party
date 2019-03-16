@@ -1,20 +1,25 @@
  /*  Header  */
 
  nav{
-	float:right;
 	margin-top:10px;
+	margin:auto;
+	display:inline;
+	float:none;
 }
 
 header li{
 	padding:0 12px 0 12px;
-	font-size: 15px;
-	margin-bottom:20px;
+	font-size: 13px;
+	width:27%;
+	height:40px;
+	text-align:center;
+	margin:auto;
 
 }
 
 header img{
-	margin-left:50%;
-	margin-bottom:0;
+	margin:20px 46%;
+
 }
 
 
